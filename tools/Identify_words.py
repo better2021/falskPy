@@ -20,6 +20,7 @@ github：tesseract-ocr/tessdata
 然后放到/usr/local/Cellar/tesseract/3.05.01/share/tessdata路径下面
 可以通过tesseract --list-langs查看本地语言包
 运行python文件就可以看到效果了(只能识别一下简单的图片，识别度不是很高~)
+注意：运行python文件时必须要用管理员身份运行
 '''
 
 # img = Image.open("../img/pic.png")
